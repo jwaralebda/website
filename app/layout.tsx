@@ -17,6 +17,10 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "JWAR AL EBDAA | Construction Company",
   description: "Residential, Commercial & Industrial Construction Services",
+
+  verification: {
+    google: "-umJ2yTYPiev31eZ9iXZS0sjaLGvJj7jvOZsg6qKSLY",
+  },
 };
 
 export default function RootLayout({
@@ -29,13 +33,10 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col min-h-screen`}
       >
-        <Nav></Nav>
-        {/* PAGE CONTENT */}
-        <main className="flex-grow:1">
+        <Nav />
+        <main className="flex-grow">
           {children}
         </main>
-        
-        {/* GLOBAL FOOTER */}
         <Footer />
       </body>
     </html>

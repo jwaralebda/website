@@ -149,12 +149,12 @@ export default function Home() {
       tailored to your vision.
     </p>
 
-    <button
+    <Link href={"/Contact"}
       className="px-10 py-4 bg-yellow-500 text-black text-lg font-medium rounded-full
       hover:bg-white hover:text-black transition-all duration-300 shadow-lg"
     >
       Get Quote
-    </button>
+    </Link>
 
   </div>
 </section>

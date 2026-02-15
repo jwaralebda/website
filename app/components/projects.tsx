@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const projects = [
@@ -5,25 +6,25 @@ const projects = [
     id: 1,
     title: "Residential Villa Project",
     location: "Dubai, UAE",
-    image: "/projects/project1.jpg",
+    image: "https://images.unsplash.com/photo-1760783320571-36ebe8b9a350?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     id: 2,
     title: "Commercial Office Building",
     location: "Abu Dhabi, UAE",
-    image: "/projects/project2.jpg",
+    image: "https://images.unsplash.com/photo-1549757521-4160565ff3de?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     id: 3,
     title: "Luxury Apartment Complex",
     location: "Sharjah, UAE",
-    image: "/projects/project3.jpg",
+    image: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     id: 4,
     title: "Industrial Warehouse",
     location: "Ajman, UAE",
-    image: "/projects/project4.jpg",
+    image: "https://images.unsplash.com/photo-1669003750747-3f139e115bfb?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
 ];
 
@@ -73,10 +74,10 @@ const Projects = () => {
 
         {/* Button */}
         <div className="text-center mt-12">
-          <button className="px-8 py-3 bg-yellow-500 rounded-full text-lg font-medium
+          <Link href={"/Projects"} className="px-8 py-3 bg-yellow-500 rounded-full text-lg font-medium
             hover:bg-black hover:text-white transition-all duration-300">
             View All Projects
-          </button>
+          </Link>
         </div>
 
       </div>

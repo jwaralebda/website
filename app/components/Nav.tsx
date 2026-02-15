@@ -11,12 +11,14 @@ const Nav = () => {
       <nav className="max-w-7xl mx-auto px-4 sm:px-8 flex items-center justify-between h-20">
         
         {/* LEFT - LOGO */}
+       <Link href={"/"}>
         <div className="flex items-center gap-4">
           <img src="/logo.jpeg" alt="Logo" className="w-14 h-auto" />
           <h1 className="text-xl sm:text-2xl font-serif font-semibold text-gray-700">
             JWAR AL EBDAA
           </h1>
         </div>
+       </Link>
 
         {/* DESKTOP MENU */}
         <div className="hidden md:flex items-center gap-8 text-lg font-medium text-gray-700">

@@ -3,45 +3,27 @@ import React from "react";
 const projects = [
   {
     id: 1,
-    title: "Luxury Residential Villa",
-    category: "Residential",
+    title: "Residential Villa Project",
     location: "Dubai, UAE",
-    image: "/projects/project1.jpg",
+    image: "https://images.unsplash.com/photo-1760783320571-36ebe8b9a350?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     id: 2,
-    title: "Commercial Office Tower",
-    category: "Commercial",
+    title: "Commercial Office Building",
     location: "Abu Dhabi, UAE",
-    image: "/projects/project2.jpg",
+    image: "https://images.unsplash.com/photo-1549757521-4160565ff3de?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     id: 3,
-    title: "Apartment Housing Project",
-    category: "Residential",
+    title: "Luxury Apartment Complex",
     location: "Sharjah, UAE",
-    image: "/projects/project3.jpg",
+    image: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     id: 4,
     title: "Industrial Warehouse",
-    category: "Industrial",
     location: "Ajman, UAE",
-    image: "/projects/project4.jpg",
-  },
-  {
-    id: 5,
-    title: "Shopping Complex",
-    category: "Commercial",
-    location: "Dubai, UAE",
-    image: "/projects/project5.jpg",
-  },
-  {
-    id: 6,
-    title: "Factory Construction",
-    category: "Industrial",
-    location: "Ras Al Khaimah, UAE",
-    image: "/projects/project6.jpg",
+    image: "https://images.unsplash.com/photo-1669003750747-3f139e115bfb?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
 ];
 
@@ -78,9 +60,7 @@ const Projects = () => {
 
               {/* Content */}
               <div className="p-5">
-                <span className="text-sm text-yellow-500 font-medium">
-                  {project.category}
-                </span>
+               
                 <h3 className="text-xl font-semibold text-gray-800 mt-1">
                   {project.title}
                 </h3>

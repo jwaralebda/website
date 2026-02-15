@@ -18,7 +18,7 @@ const ContactUs = () => {
   e.preventDefault();
 
   // 1️⃣ WhatsApp message
-  const whatsappNumber = "971501234567"; // without +
+  const whatsappNumber = "971547818460"; // without +
   const message = `
 Name: ${form.name}
 Email: ${form.email}
