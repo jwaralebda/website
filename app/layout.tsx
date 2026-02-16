@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "JWAR AL EBDAA | Construction Company",
+  title: "JWAR AL EBDAA Building Contracting LLC",
   description: "Residential, Commercial & Industrial Construction Services",
   keywords: [
     "construction company in Dubai",

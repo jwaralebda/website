@@ -15,7 +15,7 @@ const Nav = () => {
         <div className="flex items-center gap-4">
           <img src="/logo.jpeg" alt="Logo" className="w-14 h-auto" />
           <h1 className="text-xl sm:text-2xl font-serif font-semibold text-gray-700">
-            JWAR AL EBDAA
+            JWAR AL EBDAA Building Contracting LLC
           </h1>
         </div>
        </Link>
