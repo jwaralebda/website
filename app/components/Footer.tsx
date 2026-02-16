@@ -13,7 +13,7 @@ const Footer = () => {
           <div className="flex items-center gap-4 mb-4">
             <img src="/logo.jpeg" alt="JWAR AL EBDAA Logo" className="w-14" />
             <h2 className="text-2xl font-serif font-semibold">
-              JWAR AL EBDAA
+              Jwar Al Ebdaa
             </h2>
           </div>
           <p className="text-gray-400 leading-relaxed">
