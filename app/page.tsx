@@ -56,14 +56,15 @@ export default function Home() {
             Who We Are
           </h2>
 
+          <p className="text-gray-700 text-base sm:text-lg leading-relaxed pb-5">
+            Jwar Al Ebdaa is a Dubai-based contracting company established in 2025, specialising in building structures and infrastructure works. With a commitment to quality, safety, and timely delivery, we aim to contribute to the UAE’s growing construction sector by delivering reliable and cost-effective solutions.
+          </p>
           <p className="text-gray-700 text-base sm:text-lg leading-relaxed pb-10">
-            Jwar Al Ebdaa is a leading UAE-based contractor specialising in civil engineering,
-            building and MEP in both the GCC and beyond. We are proud to have contributed to
-            iconic infrastructure projects such as Palm Jumeirah, Business Bay, Yas Island,
-            Dubai Water Canal Project, Dubai Airports, Parallel Roads, and Expo 2020.
+           Our expertise includes structural construction, civil works, and infrastructure development, supporting residential, commercial, and industrial projects. Backed by a skilled team and modern construction practices, Jwar Al Ebdaa is dedicated to building strong foundations and long-lasting partnerships across Dubai and the wider UAE.
           </p>
 
-          <Link href={"/About"} className="mt-8 px-8 py-3 bg-yellow-500 rounded-full text-lg font-medium
+
+          <Link href={"/about"} className="mt-8 px-8 py-3 bg-yellow-500 rounded-full text-lg font-medium
             hover:bg-black hover:text-white transition-all duration-300">
             About Us
           </Link>
