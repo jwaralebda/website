@@ -17,6 +17,17 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "JWAR AL EBDAA | Construction Company",
   description: "Residential, Commercial & Industrial Construction Services",
+  keywords: [
+    "construction company in Dubai",
+    "Dubai construction company",
+    "building contractors Dubai",
+    "civil construction company Dubai",
+    "commercial construction company UAE",
+    "building construction company Dubai",
+    "UAE construction company",
+    "construction contractors in Dubai",
+    "Dubai construction services"
+  ],
 
   verification: {
     google: "-umJ2yTYPiev31eZ9iXZS0sjaLGvJj7jvOZsg6qKSLY",
@@ -34,7 +45,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col min-h-screen`}
       >
         <Nav />
-        <main className="flex-grow">
+        <main className="flex-grow:1">
           {children}
         </main>
         <Footer />
