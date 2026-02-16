@@ -39,6 +39,12 @@ const Career = () => {
       location: "Dubai, UAE",
       type: "Full Time"
     },
+     {
+      id: 2,
+      title: "Civil Foreman",
+      location: "Dubai, UAE",
+      type: "Full Time"
+    },
   
   
   ]
