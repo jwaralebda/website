@@ -26,6 +26,7 @@ const Nav = () => {
           <Link href="/about" className="hover:text-yellow-500 transition">About Us</Link>
           <Link href="/projects" className="hover:text-yellow-500 transition">Projects</Link>
           <Link href="/contact" className="hover:text-yellow-500 transition">Contact Us</Link>
+          <Link href="/career" className="hover:text-yellow-500 transition">Careers</Link>
         </div>
 
         {/* MOBILE MENU BUTTON */}
@@ -57,6 +58,7 @@ const Nav = () => {
             <Link href="/about" onClick={() => setOpen(false)}>About Us</Link>
             <Link href="/projects" onClick={() => setOpen(false)}>Projects</Link>
             <Link href="/contact" onClick={() => setOpen(false)}>Contact Us</Link>
+            <Link href="/career" onClick={() => setOpen(false)}>Careers</Link>
           </div>
         </div>
       )}
