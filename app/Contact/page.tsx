@@ -57,7 +57,7 @@ Message: ${form.message}
 
           <div className="space-y-4 text-gray-700">
             <p>📍 <strong>Address:</strong> Dubai, UAE</p>
-            <p>📞 <strong>Phone:</strong> +971 50 123 4567</p>
+            <p>📞 <strong>Phone:</strong> +971 54 787 9650</p>
             <p>✉️ <strong>Email:</strong> info@jwaralebdaa.com</p>
           </div>
         </div>

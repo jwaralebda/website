@@ -23,9 +23,9 @@ const Nav = () => {
         {/* DESKTOP MENU */}
         <div className="hidden md:flex items-center gap-8 text-lg font-medium text-gray-700">
           <Link href="/" className="hover:text-yellow-500 transition">Home</Link>
-          <Link href="/About" className="hover:text-yellow-500 transition">About Us</Link>
-          <Link href="/Projects" className="hover:text-yellow-500 transition">Projects</Link>
-          <Link href="/Contact" className="hover:text-yellow-500 transition">Contact Us</Link>
+          <Link href="/about" className="hover:text-yellow-500 transition">About Us</Link>
+          <Link href="/projects" className="hover:text-yellow-500 transition">Projects</Link>
+          <Link href="/contact" className="hover:text-yellow-500 transition">Contact Us</Link>
         </div>
 
         {/* MOBILE MENU BUTTON */}
@@ -54,9 +54,9 @@ const Nav = () => {
         <div className="md:hidden bg-white shadow-lg">
           <div className="flex flex-col items-center gap-6 py-6 text-lg font-medium text-gray-700">
             <Link href="/" onClick={() => setOpen(false)}>Home</Link>
-            <Link href="/About" onClick={() => setOpen(false)}>About Us</Link>
-            <Link href="/Projects" onClick={() => setOpen(false)}>Projects</Link>
-            <Link href="/Contact" onClick={() => setOpen(false)}>Contact Us</Link>
+            <Link href="/about" onClick={() => setOpen(false)}>About Us</Link>
+            <Link href="/projects" onClick={() => setOpen(false)}>Projects</Link>
+            <Link href="/contact" onClick={() => setOpen(false)}>Contact Us</Link>
           </div>
         </div>
       )}

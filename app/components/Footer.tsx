@@ -27,9 +27,9 @@ const Footer = () => {
           <h3 className="text-xl font-semibold mb-4">Quick Links</h3>
           <ul className="space-y-2 text-gray-400">
             <li><Link href="/" className="hover:text-yellow-500">Home</Link></li>
-            <li><Link href="/About" className="hover:text-yellow-500">About Us</Link></li>
-            <li><Link href="/Projects" className="hover:text-yellow-500">Projects</Link></li>
-            <li><Link href="/Contact" className="hover:text-yellow-500">Contact Us</Link></li>
+            <li><Link href="/about" className="hover:text-yellow-500">About Us</Link></li>
+            <li><Link href="/projects" className="hover:text-yellow-500">Projects</Link></li>
+            <li><Link href="/contact" className="hover:text-yellow-500">Contact Us</Link></li>
           </ul>
         </div>
 
@@ -38,7 +38,7 @@ const Footer = () => {
           <h3 className="text-xl font-semibold mb-4">Contact Us</h3>
           <ul className="space-y-2 text-gray-400">
             <li>📍 Dubai, UAE</li>
-            <li>📞 +971 547818460</li>
+            <li>📞 +971 547879650</li>
             <li>✉️ info@jwaralebdaa.com</li>
           </ul>
         </div>

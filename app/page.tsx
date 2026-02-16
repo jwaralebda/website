@@ -35,12 +35,12 @@ export default function Home() {
             </p>
 
             <div className="mt-6 flex justify-center gap-4 flex-wrap">
-              <Link href={"/Contact"}  className="px-6 py-3 rounded-full bg-yellow-500 text-black font-medium 
+              <Link href={"/contact"}  className="px-6 py-3 rounded-full bg-yellow-500 text-black font-medium 
                 hover:bg-black hover:text-white transition-all duration-300">
                 Get a Quote
               </Link>
 
-              <Link href={"/Contact"} className="px-6 py-3 rounded-full border border-white text-white 
+              <Link href={"/contact"} className="px-6 py-3 rounded-full border border-white text-white 
                 hover:bg-white hover:text-black transition-all duration-300">
                 Contact Us
               </Link>
@@ -149,7 +149,7 @@ export default function Home() {
       tailored to your vision.
     </p>
 
-    <Link href={"/Contact"}
+    <Link href={"/contact"}
       className="px-10 py-4 bg-yellow-500 text-black text-lg font-medium rounded-full
       hover:bg-white hover:text-black transition-all duration-300 shadow-lg"
     >
