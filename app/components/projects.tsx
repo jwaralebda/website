@@ -74,7 +74,7 @@ const Projects = () => {
 
         {/* Button */}
         <div className="text-center mt-12">
-          <Link href={"/Projects"} className="px-8 py-3 bg-yellow-500 rounded-full text-lg font-medium
+          <Link href={"/projects"} className="px-8 py-3 bg-yellow-500 rounded-full text-lg font-medium
             hover:bg-black hover:text-white transition-all duration-300">
             View All Projects
           </Link>
